@@ -1,0 +1,82 @@
+/* border box */
+
+html {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+b {
+  font-weight: bold;
+}
+
+
+/* main app styles */
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  margin: 2% auto;
+  padding: 15px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid thistle;
+}
+.card-title{
+  font-size: 26px;
+  padding: 10px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid #555;
+  margin-left: 10px;
+}
+input:focus{
+  outline: none;
+}
+.btn{
+ 
+  background-color: #555;
+  color: #FAFAFA;
+  border-radius: 50px;
+  margin: 10px 10px;
+}
+.class-action{
+  background-color: white;
+  border: 1px solid thistle;
+  margin: 20px auto;
+}
+#task-title{
+  font-size: 26px;
+  padding: 10px;
+}
+.collection{
+  justify-content: center;
+}
+.collection-item{
+  padding: 5px 5px;
+  border-bottom: 1px solid rgb(85, 85, 85, 0.2);
+}
+.collection-item .fa-remove{
+  color: #555;
+}
+.delete-item{
+  float: right;
+}
